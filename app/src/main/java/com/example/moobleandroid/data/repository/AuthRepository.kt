@@ -5,7 +5,6 @@ import com.example.moobleandroid.data.api.TokenResponse
 import com.example.moobleandroid.data.api.UserInfoResponse
 import com.example.moobleandroid.data.local.UserDao
 import com.example.moobleandroid.data.local.UserEntity
-import kotlinx.coroutines.suspendCancellableCoroutine
 
 class AuthRepository(
     private val apiService: MoodleApiService,

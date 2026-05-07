@@ -2,7 +2,6 @@ package com.example.moobleandroid.data.repository
 
 import com.example.moobleandroid.data.api.GradeReportResponse
 import com.example.moobleandroid.data.api.MoodleApiService
-import retrofit2.Call
 
 class GradeRepository(private val apiService: MoodleApiService) {
 

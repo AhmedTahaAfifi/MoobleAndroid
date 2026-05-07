@@ -1,7 +1,5 @@
 package com.example.moobleandroid.presentation.viewmodel.grades
 
-import com.example.moobleandroid.data.api.GradeItem
-
 data class GradeState(
     val grades: List<GradeUiModel> = emptyList(),
     val isLoading: Boolean = false,
